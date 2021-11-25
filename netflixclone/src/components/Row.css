@@ -1,0 +1,58 @@
+.row{
+    margin-left:20px;
+    color: white;
+    font-size: 1rem;
+}
+@media only screen and (max-width: 740px) {
+    .row{
+        font-size: 0.5rem !important;
+    }
+  }
+
+@media only screen and (max-width: 1260px) {
+    .row{
+        font-size: 0.8rem;
+    }
+  }
+.row-posters{
+    display: flex ;
+    /* overflow-y: ; */
+    /* overflow-x: scroll; */
+    padding: 20px !important; 
+}
+@media only screen and (min-width: 1570px) {
+    .row-posters{
+        padding: 48px !important; 
+    }
+}
+
+
+.row-posters::-webkit-scrollbar{
+    display: none;
+}
+
+.row-poster{
+    
+    max-width: 100%;
+    height: auto;
+    /* margin-right: 10px; */
+    transition: transform 450ms;
+    border-radius: 2px;
+    
+}
+
+.row-poster:hover{
+    transform: scale(1.18);
+    z-index: 1;
+}
+.row-posterLarge{
+    max-height: 250px  ;
+}
+.row-posterLarge:hover{
+    transform: scale(1.10) !important;
+}
+:root {
+    --swiper-theme-color: #fff !important;
+}
+
+  
