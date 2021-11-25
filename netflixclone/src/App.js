@@ -12,11 +12,11 @@ export default function App() {
 
   return (
     <div className="app">
-      {/* NavBar */}
+      
       <NavBar/>
-      {/* Banner */}
+      
       <Banner/>
-      {/* Row */}
+      
       
       <Row 
         title="NETFLIX ORIGINALS" 
