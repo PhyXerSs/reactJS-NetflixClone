@@ -12,12 +12,8 @@ export default function App() {
 
   return (
     <div className="app">
-      
       <NavBar/>
-      
       <Banner/>
-      
-      
       <Row 
         title="NETFLIX ORIGINALS" 
         fetchUrl={requests.fetchNetflixOriginals}
