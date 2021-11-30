@@ -1,5 +1,5 @@
 # reactJS-NetflixClone
 Build a NETFLIX Clone with REACT JS
 
-project preview:
+Live Site:
 https://reactjs-netflixclone-phyxerss.netlify.app
